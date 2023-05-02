@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">  -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Inicio página proyecto</h1>
+    <div class="container">
+        <div class="logo">
+            <img class="logo_img" src="logo.svg" alt="">
+        </div>
+        <form class="contact_form" action="Control.php" method="post">
+
+            <div class="form__usuario">
+                <label for="">Usuario</label>
+                <input type="text" name="usuarioIng" class="usuario">
+            </div>
+            <div class="form__clave">
+                <label for="">Contraseña</label>
+                <input id="clave" type="password" name="passwordIng" class="clave">
+                <span id="ver" class="ver_clave"><i id="icono" class="fas fa-eye"></i></span>
+            </div>
+            <div class="form__boton">
+                <button class="boton" type="submit" name="ingresar">Ingresar</button>
+                <button class="boton"><a href="registro.html">Registrar</a></button>
+
+                <!-- <button class="boton"  href="registro.html">Registrar</button> -->
+            </div>
+        </form>
+
+    </div>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
