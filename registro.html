@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registro Proyecto</title>
     <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script> 
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="stylesheet" href="estilosRegistro.css">
@@ -37,14 +37,21 @@
             <div>
                 <label for="">Confirmar contraseña</label>
                 <input id="clave" type="text" placeholder="Confirmar contraseña" class="clave" name="passwordConfirm"
-                    pattern="(?=.*\b{{password}}\b)" required>
+                    pattern="(?=.*\b{{password}}\b)" >
             </div>
 
             <div class="form__boton">
                 <button class="boton" type="submit" name="registrar">Registrar</button>
+                <button class="boton" id="btn-regresar" type="button">Regresar</button>
             </div>
 
         </form>
+
+        <script>
+            document.getElementById("btn-regresar").addEventListener("click", function() {
+                window.location.href = "index.html";
+            });
+            </script>
     </div>
 
 

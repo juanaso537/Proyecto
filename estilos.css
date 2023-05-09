@@ -22,7 +22,7 @@ body {
     width: 600px;
     position: relative;
     margin: auto;
-    background: rgb(7, 3, 3);
+    background: rgb(255, 255, 255);
     padding: 25px;
     border-radius: 3px;
     display: flex;
@@ -63,7 +63,6 @@ body {
 }
 
 .boton {
-
     margin: 10px;
     background: green;
     padding: 15px 25px;

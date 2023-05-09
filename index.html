@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio Pagina Proyecto</title>
     <script src="https://kit.fontawesome.com/03a89292db.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="stylesheet" href="estilos.css">
@@ -30,11 +30,18 @@
             </div>
             <div class="form__boton">
                 <button class="boton" type="submit" name="ingresar">Ingresar</button>
-                <button class="boton"><a href="registro.html">Registrar</a></button>
-
+               <!--  <button class="boton"><a href="registro.html">Registrar</a></button> --><!-- 
+                <button class="boton" onclick="window.location.href='registro.html'" formnovalidate>Registrar</button> -->
+                <button class="boton" id="btn-registrar" type="button">Registrar</button>
                 <!-- <button class="boton"  href="registro.html">Registrar</button> -->
             </div>
         </form>
+
+        <script>
+            document.getElementById("btn-registrar").addEventListener("click", function() {
+                window.location.href = "registro.html";
+            });
+            </script>
 
     </div>
     <script src="main.js"></script>
