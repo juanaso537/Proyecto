@@ -22,7 +22,7 @@ body {
     width: 600px;
     position: relative;
     margin: auto;
-    background: rgb(7, 4, 4);
+    background: rgb(255, 255, 255);
     padding: 25px;
     border-radius: 3px;
     display: flex;
@@ -50,15 +50,15 @@ body {
 .clave,
 .nombre,
 .apellido {
-     outline: none;
+    /*  outline: none;
     padding:50px;
     font-size: 16px;
-    border:30px solid #e70707;
-    /* width: 100%;
+    border:30px solid #e70707; */
+    width: 100%;
     padding: 10px 15px;
     border: none;
     outline: none;
-    border-bottom: solid #700707 2px; */
+    border-bottom: solid #000000 2px;
 }
 
 .ver_clave {
@@ -70,7 +70,6 @@ body {
 }
 
 .boton {
-
     margin: 10px;
     background: green;
     padding: 15px 25px;

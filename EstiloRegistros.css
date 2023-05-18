@@ -2,59 +2,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin-bottom:20px;
 }
 
 body {
     font-family: "Roboto", sans-serif;
-    background: #06beb6;
-    
-    background: -webkit-linear-gradient(to right,
-            #48b1bf,
-            #06beb6);
-    
-    background: linear-gradient(to right,
-            #48b1bf,
-            #06beb6);
-    
+    background: white;
+
+  
+}
+header{
+    padding: 20px;
+    background-color: gray;
+    margin-bottom: 5%;
+   
+
 }
 
-.container {
+
+
+/* .container {
     width: 600px;
     position: relative;
     margin: auto;
-    background: rgb(255, 255, 255);
+    background: rgb(7, 4, 4);
     padding: 25px;
     border-radius: 3px;
     display: flex;
     align-items: center;
     gap: 20px;
-}
-
+} */
+/* 
 .logo_img {
     width: 250px;
-}
+}*/
 
-.form {
+.contact_form {
     padding: 10px;
+    background-color: aqua;
+    
+
 }
 
 .form__usuario,
-.form__clave {
+.form__clave,
+.form__apellido,.form__nombre { 
     width: 100%;
     margin-bottom: 40px;
-    position: relative;
-}
+  
+ 
+   
+}  
 
 .usuario,
-.clave {
+.clave,
+.nombre,
+.apellido {
+     
     width: 100%;
     padding: 10px 15px;
     border: none;
     outline: none;
-    border-bottom: solid #222 2px;
-}
-
-.ver_clave {
+    border-bottom: solid #700707 2px; 
+    display: inline-block;
+} 
+/*
+ .ver_clave {
     position: absolute;
     right: 10px;
     bottom: 30px;
@@ -63,6 +76,7 @@ body {
 }
 
 .boton {
+
     margin: 10px;
     background: green;
     padding: 15px 25px;
@@ -90,4 +104,4 @@ h1 {
 
 .boton:hover {
     background: rgb(2, 117, 2);
-}
+} 
