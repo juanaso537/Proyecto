@@ -1,0 +1,7 @@
+.dropdown-menu{
+    position: relative;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    filter: invert(100%);
+  }
